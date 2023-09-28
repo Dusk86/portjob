@@ -1,0 +1,9 @@
+DEBUG    root:testrequest.py:121 请求地址
+DEBUG    root:testrequest.py:124 http://47.107.116.139/phpwind
+DEBUG    root:testrequest.py:125 请求方式
+DEBUG    root:testrequest.py:128 get
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 47.107.116.139:80
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://47.107.116.139:80 "GET /phpwind HTTP/1.1" 301 162
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://47.107.116.139:80 "GET /phpwind/ HTTP/1.1" 200 None
+DEBUG    root:testrequest.py:131 获取 csrf_token 值
+DEBUG    root:testrequest.py:135 e86c303cebd756e6

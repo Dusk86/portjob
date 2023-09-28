@@ -1,0 +1,10 @@
+DEBUG    root:testrequest.py:42 请求地址=====》https://api.weixin.qq.com/cgi-bin/token
+DEBUG    root:testrequest.py:45 请求方式=====》get
+DEBUG    root:testrequest.py:49 请求参数=====》{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): api.weixin.qq.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx6b11b3efd1cdc290&secret=106a9c6157c4db5f6029918738f9529d HTTP/1.1" 200 173
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): api.weixin.qq.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx6b11b3efd1cdc290&secret=106a9c6157c4db5f6029918738f9529d HTTP/1.1" 200 173
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): api.weixin.qq.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx6b11b3efd1cdc290&secret=106a9c6157c4db5f6029918738f9529d HTTP/1.1" 200 173
+DEBUG    root:testrequest.py:54 返回token值=====》72_peoLtRYXk1o9QhJClDnEKI_UQmu7TVopZqGNGUfM8yNQSXm7OXH6jVJOFM7VHNAqSsSSI1cJTSFHqAVZZzMwRiKmF4u4OD4KNxBhpn9jDRiRRPmLvi6pb050CBsQRIaAFAZAR

@@ -1,0 +1,29 @@
+gettoken:
+  - name: 获取token
+    request:
+      method: get
+      url: https://api.weixin.qq.com/cgi-bin/token
+      data:
+        grant_type: client_credential
+        appid: wx6b11b3efd1cdc290
+        secret: 106a9c6157c4db5f6029918738f9529d
+    validate:
+      eq: {expires_in: 7200}
+
+usetoken:
+  - name: 使用获取的token
+    request:
+      method: post
+      url: https://api.weixin.qq.com/cgi-bin/tags/update?access_token=
+      data:
+        tag:
+          id: 134
+          name: 广东人
+    validate:
+      eq: [status_code,200]
+
+getcookie:
+  - name: 获取cookies
+    request:
+      method: get
+      url: http://47.107.116.139/phpwind

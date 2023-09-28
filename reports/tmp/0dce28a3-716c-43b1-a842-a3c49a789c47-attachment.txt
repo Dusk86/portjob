@@ -1,0 +1,14 @@
+DEBUG    root:testrequest.py:71 读取存入的token
+DEBUG    root:testrequest.py:73 72_Dwp2r6SIuVY1hdkcpwOB_6uTOYl6R3LJT2GbPq6IFnKs_lIdNjoM5j2gtjPCO4U_SpcDorusC81Yv08mGa916ip9jzNn8NsGUnSarr9Fw-l2jUJUeUquDufN9SsQEOjAFATHR
+DEBUG    root:testrequest.py:74 获取请求地址
+DEBUG    root:testrequest.py:77 https://api.weixin.qq.com/cgi-bin/tags/update?access_token=72_Dwp2r6SIuVY1hdkcpwOB_6uTOYl6R3LJT2GbPq6IFnKs_lIdNjoM5j2gtjPCO4U_SpcDorusC81Yv08mGa916ip9jzNn8NsGUnSarr9Fw-l2jUJUeUquDufN9SsQEOjAFATHR
+DEBUG    root:testrequest.py:78 请求方法
+DEBUG    root:testrequest.py:81 post
+DEBUG    root:testrequest.py:82 请求数据
+DEBUG    root:testrequest.py:84 {'id': 134, 'name': '广东人'}
+DEBUG    root:testrequest.py:85 获取返回值
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): api.weixin.qq.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://api.weixin.qq.com:443 "POST /cgi-bin/tags/update?access_token=72_Dwp2r6SIuVY1hdkcpwOB_6uTOYl6R3LJT2GbPq6IFnKs_lIdNjoM5j2gtjPCO4U_SpcDorusC81Yv08mGa916ip9jzNn8NsGUnSarr9Fw-l2jUJUeUquDufN9SsQEOjAFATHR HTTP/1.1" 200 81
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): api.weixin.qq.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://api.weixin.qq.com:443 "POST /cgi-bin/tags/update?access_token=72_Dwp2r6SIuVY1hdkcpwOB_6uTOYl6R3LJT2GbPq6IFnKs_lIdNjoM5j2gtjPCO4U_SpcDorusC81Yv08mGa916ip9jzNn8NsGUnSarr9Fw-l2jUJUeUquDufN9SsQEOjAFATHR HTTP/1.1" 200 81
+DEBUG    root:testrequest.py:88 <Response [200]>

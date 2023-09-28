@@ -1,0 +1,14 @@
+.side-nav__brand {
+  background: url('achai.jpg') no-repeat left center !important;
+  margin-left: 10px;
+  height: 55px;
+  background-size: contain !important
+}
+.side-nav__brand span{
+  display: none;
+  }
+.side-nav__brand:after{
+  content: "阿柴";
+  margin-left: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

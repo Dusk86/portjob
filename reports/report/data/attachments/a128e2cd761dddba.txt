@@ -1,0 +1,12 @@
+DEBUG    root:testrequest.py:97 请求地址
+DEBUG    root:testrequest.py:100 https://tianqiapi.com/free/day
+DEBUG    root:testrequest.py:101 请求方式
+DEBUG    root:testrequest.py:104 GET
+DEBUG    root:testrequest.py:106 查询 大连 天气预报
+DEBUG    root:testrequest.py:107 获取 id/密钥/城市
+DEBUG    root:testrequest.py:109 {'appid': 47242322, 'appsecret': '4cUoG0rk', 'city': '大连'}
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): tianqiapi.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E5%A4%A7%E8%BF%9E HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): tianqiapi.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E5%A4%A7%E8%BF%9E HTTP/1.1" 200 None
+DEBUG    root:testrequest.py:111 大连'天气预报'：{'nums': 2, 'cityid': '101070201', 'city': '大连', 'date': '2023-09-06', 'week': '星期三', 'update_time': '13:17', 'wea': '晴', 'wea_img': 'qing', 'tem': '30', 'tem_day': '30', 'tem_night': '21', 'win': '东北风', 'win_speed': '2级', 'win_meter': '5km/h', 'air': '43', 'pressure': '1003', 'humidity': '50%'}

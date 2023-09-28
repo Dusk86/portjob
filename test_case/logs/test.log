@@ -1,0 +1,4 @@
+2023-07-06 14:20:13 - testrequest.py:29 -TestSendRequest - [DEBUG] : 获取token值
+2023-07-06 14:20:13 - testrequest.py:66 -TestSendRequest - [DEBUG] : 使用获取的token值
+2023-07-06 14:20:13 - testrequest.py:94 -TestSendRequest - [DEBUG] : 查询城市天气
+2023-07-06 14:20:13 - testrequest.py:117 -TestSendRequest - [DEBUG] : 获取cookies值

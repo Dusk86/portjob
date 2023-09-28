@@ -1,0 +1,20 @@
+-
+  name: 大连天气
+  request:
+    method: GET
+    url: https://tianqiapi.com/free/day
+    data:
+      appid: 47242322
+      appsecret: 4cUoG0rk
+      city: 大连
+  validate: None
+-
+  name: 长春天气
+  request:
+    method: GET
+    url: https://tianqiapi.com/free/day
+    data:
+      appid: 47242322
+      appsecret: 4cUoG0rk
+      city: 长春
+  validate: None
