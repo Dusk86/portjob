@@ -1,0 +1,14 @@
+DEBUG    root:testrequest.py:140 请求地址
+DEBUG    root:testrequest.py:143 https://tianqiapi.com/free/day
+DEBUG    root:testrequest.py:144 请求方式
+DEBUG    root:testrequest.py:147 get
+DEBUG    root:testrequest.py:148 请求头
+DEBUG    root:testrequest.py:151 
+DEBUG    root:testrequest.py:152 请求参数
+DEBUG    root:testrequest.py:156 {"appid": "47242322", "appsecret": "4cUoG0rk", "city": "青岛"}
+DEBUG    root:testrequest.py:157 获取access_token
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): tianqiapi.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E9%9D%92%E5%B2%9B HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): tianqiapi.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E9%9D%92%E5%B2%9B HTTP/1.1" 200 None
+DEBUG    root:testrequest.py:160 {'nums': 8, 'cityid': '101120201', 'city': '青岛', 'date': '2023-12-12', 'week': '星期二', 'update_time': '12:27', 'wea': '多云', 'wea_img': 'yun', 'tem': '1.4', 'tem_day': '5', 'tem_night': '0', 'win': '西北风', 'win_speed': '3级', 'win_meter': '16km/h', 'air': '36', 'pressure': '1018', 'humidity': '69%'}

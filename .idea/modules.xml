@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/LoginTest.iml" filepath="$PROJECT_DIR$/.idea/LoginTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Mysql/.idea/Mysql.iml" filepath="$PROJECT_DIR$/../Mysql/.idea/Mysql.iml" />
     </modules>
   </component>
 </project>

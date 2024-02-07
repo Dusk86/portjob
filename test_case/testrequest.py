@@ -27,8 +27,6 @@ logger = logging.getLogger()
 @allure.link("", "链接地址")
 class TestSendRequest:
     logger.debug("获取token值")
-
-
     @pytest.mark.parametrize("casein", YamlUtil().read_testcase('E:/LoginTest/data/get_token.yml', 'gettoken'))
     # @allure.story("") 子功能名称，放在用例前面。 三级目录
     @allure.story("获取token")
@@ -61,7 +59,6 @@ class TestSendRequest:
 
     # 使用获取的token
     logger.debug("使用获取的token值")
-
     @pytest.mark.parametrize("usetoken", YamlUtil().read_testcase('E:/LoginTest/data/get_token.yml', 'usetoken'))
     @allure.story("使用取到的token")
     @allure.title("使用获取到的token值")
@@ -89,7 +86,6 @@ class TestSendRequest:
 
     # 获取天气信息
     logger.debug("查询城市天气")
-
     @pytest.mark.parametrize("weatherinfo", Weather().get_weather('E:/LoginTest/data/weather.yml'))
     @allure.story("查询天气信息")
     @allure.title("获取城市的天气预报")
@@ -112,7 +108,6 @@ class TestSendRequest:
 
     # 获取cookies
     logger.debug("获取cookies值")
-
     @pytest.mark.parametrize("cookiesinfo", YamlUtil().read_testcase('E:/LoginTest/data/get_token.yml', 'getcookie'))
     @allure.story("获取cookies值")
     @allure.title("获取cookies值")

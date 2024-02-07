@@ -1,103 +1,103 @@
-2023-09-06 13:30:08 - testrequest.py:29 -TestSendRequest - [DEBUG] : 获取token值
-2023-09-06 13:30:08 - testrequest.py:63 -TestSendRequest - [DEBUG] : 使用获取的token值
-2023-09-06 13:30:08 - testrequest.py:91 -TestSendRequest - [DEBUG] : 查询城市天气
-2023-09-06 13:30:08 - testrequest.py:114 -TestSendRequest - [DEBUG] : 获取cookies值
-2023-09-06 13:30:08 - testrequest.py:42 -test_gettoken - [DEBUG] : 请求地址=====》https://api.weixin.qq.com/cgi-bin/token
-2023-09-06 13:30:08 - testrequest.py:45 -test_gettoken - [DEBUG] : 请求方式=====》get
-2023-09-06 13:30:08 - testrequest.py:49 -test_gettoken - [DEBUG] : 请求参数=====》{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
-2023-09-06 13:30:08 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): api.weixin.qq.com:443
-2023-09-06 13:30:09 - connectionpool.py:456 -_make_request - [DEBUG] : https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx6b11b3efd1cdc290&secret=106a9c6157c4db5f6029918738f9529d HTTP/1.1" 200 173
-2023-09-06 13:30:09 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): api.weixin.qq.com:443
-2023-09-06 13:30:10 - connectionpool.py:456 -_make_request - [DEBUG] : https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx6b11b3efd1cdc290&secret=106a9c6157c4db5f6029918738f9529d HTTP/1.1" 200 173
-2023-09-06 13:30:10 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): api.weixin.qq.com:443
-2023-09-06 13:30:10 - connectionpool.py:456 -_make_request - [DEBUG] : https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx6b11b3efd1cdc290&secret=106a9c6157c4db5f6029918738f9529d HTTP/1.1" 200 173
-2023-09-06 13:30:10 - testrequest.py:54 -test_gettoken - [DEBUG] : 返回token值=====》72_peoLtRYXk1o9QhJClDnEKI_UQmu7TVopZqGNGUfM8yNQSXm7OXH6jVJOFM7VHNAqSsSSI1cJTSFHqAVZZzMwRiKmF4u4OD4KNxBhpn9jDRiRRPmLvi6pb050CBsQRIaAFAZAR
-2023-09-06 13:30:10 - testrequest.py:71 -test_usetoken - [DEBUG] : 读取存入的token
-2023-09-06 13:30:10 - testrequest.py:73 -test_usetoken - [DEBUG] : 72_Dwp2r6SIuVY1hdkcpwOB_6uTOYl6R3LJT2GbPq6IFnKs_lIdNjoM5j2gtjPCO4U_SpcDorusC81Yv08mGa916ip9jzNn8NsGUnSarr9Fw-l2jUJUeUquDufN9SsQEOjAFATHR
-2023-09-06 13:30:10 - testrequest.py:74 -test_usetoken - [DEBUG] : 获取请求地址
-2023-09-06 13:30:10 - testrequest.py:77 -test_usetoken - [DEBUG] : https://api.weixin.qq.com/cgi-bin/tags/update?access_token=72_Dwp2r6SIuVY1hdkcpwOB_6uTOYl6R3LJT2GbPq6IFnKs_lIdNjoM5j2gtjPCO4U_SpcDorusC81Yv08mGa916ip9jzNn8NsGUnSarr9Fw-l2jUJUeUquDufN9SsQEOjAFATHR
-2023-09-06 13:30:10 - testrequest.py:78 -test_usetoken - [DEBUG] : 请求方法
-2023-09-06 13:30:10 - testrequest.py:81 -test_usetoken - [DEBUG] : post
-2023-09-06 13:30:10 - testrequest.py:82 -test_usetoken - [DEBUG] : 请求数据
-2023-09-06 13:30:10 - testrequest.py:84 -test_usetoken - [DEBUG] : {'id': 134, 'name': '广东人'}
-2023-09-06 13:30:10 - testrequest.py:85 -test_usetoken - [DEBUG] : 获取返回值
-2023-09-06 13:30:10 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): api.weixin.qq.com:443
-2023-09-06 13:30:11 - connectionpool.py:456 -_make_request - [DEBUG] : https://api.weixin.qq.com:443 "POST /cgi-bin/tags/update?access_token=72_Dwp2r6SIuVY1hdkcpwOB_6uTOYl6R3LJT2GbPq6IFnKs_lIdNjoM5j2gtjPCO4U_SpcDorusC81Yv08mGa916ip9jzNn8NsGUnSarr9Fw-l2jUJUeUquDufN9SsQEOjAFATHR HTTP/1.1" 200 81
-2023-09-06 13:30:11 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): api.weixin.qq.com:443
-2023-09-06 13:30:11 - connectionpool.py:456 -_make_request - [DEBUG] : https://api.weixin.qq.com:443 "POST /cgi-bin/tags/update?access_token=72_Dwp2r6SIuVY1hdkcpwOB_6uTOYl6R3LJT2GbPq6IFnKs_lIdNjoM5j2gtjPCO4U_SpcDorusC81Yv08mGa916ip9jzNn8NsGUnSarr9Fw-l2jUJUeUquDufN9SsQEOjAFATHR HTTP/1.1" 200 81
-2023-09-06 13:30:11 - testrequest.py:88 -test_usetoken - [DEBUG] : <Response [200]>
-2023-09-06 13:30:11 - testrequest.py:97 -test_getweather - [DEBUG] : 请求地址
-2023-09-06 13:30:11 - testrequest.py:100 -test_getweather - [DEBUG] : https://tianqiapi.com/free/day
-2023-09-06 13:30:11 - testrequest.py:101 -test_getweather - [DEBUG] : 请求方式
-2023-09-06 13:30:11 - testrequest.py:104 -test_getweather - [DEBUG] : GET
-2023-09-06 13:30:11 - testrequest.py:106 -test_getweather - [DEBUG] : 查询 大连 天气预报
-2023-09-06 13:30:11 - testrequest.py:107 -test_getweather - [DEBUG] : 获取 id/密钥/城市
-2023-09-06 13:30:11 - testrequest.py:109 -test_getweather - [DEBUG] : {'appid': 47242322, 'appsecret': '4cUoG0rk', 'city': '大连'}
-2023-09-06 13:30:11 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
-2023-09-06 13:30:11 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E5%A4%A7%E8%BF%9E HTTP/1.1" 200 None
-2023-09-06 13:30:11 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
-2023-09-06 13:30:12 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E5%A4%A7%E8%BF%9E HTTP/1.1" 200 None
-2023-09-06 13:30:12 - testrequest.py:111 -test_getweather - [DEBUG] : 大连'天气预报'：{'nums': 2, 'cityid': '101070201', 'city': '大连', 'date': '2023-09-06', 'week': '星期三', 'update_time': '13:17', 'wea': '晴', 'wea_img': 'qing', 'tem': '30', 'tem_day': '30', 'tem_night': '21', 'win': '东北风', 'win_speed': '2级', 'win_meter': '5km/h', 'air': '43', 'pressure': '1003', 'humidity': '50%'}
-2023-09-06 13:30:12 - testrequest.py:97 -test_getweather - [DEBUG] : 请求地址
-2023-09-06 13:30:12 - testrequest.py:100 -test_getweather - [DEBUG] : https://tianqiapi.com/free/day
-2023-09-06 13:30:12 - testrequest.py:101 -test_getweather - [DEBUG] : 请求方式
-2023-09-06 13:30:12 - testrequest.py:104 -test_getweather - [DEBUG] : GET
-2023-09-06 13:30:12 - testrequest.py:106 -test_getweather - [DEBUG] : 查询 长春 天气预报
-2023-09-06 13:30:12 - testrequest.py:107 -test_getweather - [DEBUG] : 获取 id/密钥/城市
-2023-09-06 13:30:12 - testrequest.py:109 -test_getweather - [DEBUG] : {'appid': 47242322, 'appsecret': '4cUoG0rk', 'city': '长春'}
-2023-09-06 13:30:12 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
-2023-09-06 13:30:13 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E9%95%BF%E6%98%A5 HTTP/1.1" 200 None
-2023-09-06 13:30:13 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
-2023-09-06 13:30:14 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E9%95%BF%E6%98%A5 HTTP/1.1" 200 None
-2023-09-06 13:30:14 - testrequest.py:111 -test_getweather - [DEBUG] : 长春'天气预报'：{'nums': 4, 'cityid': '101060101', 'city': '长春', 'date': '2023-09-06', 'week': '星期三', 'update_time': '13:12', 'wea': '晴', 'wea_img': 'qing', 'tem': '27', 'tem_day': '28', 'tem_night': '17', 'win': '西风', 'win_speed': '2级', 'win_meter': '9km/h', 'air': '26', 'pressure': '987', 'humidity': '45%'}
-2023-09-06 13:30:14 - testrequest.py:121 -test_getcookies - [DEBUG] : 请求地址
-2023-09-06 13:30:14 - testrequest.py:124 -test_getcookies - [DEBUG] : http://47.107.116.139/phpwind
-2023-09-06 13:30:14 - testrequest.py:125 -test_getcookies - [DEBUG] : 请求方式
-2023-09-06 13:30:14 - testrequest.py:128 -test_getcookies - [DEBUG] : get
-2023-09-06 13:30:14 - connectionpool.py:228 -_new_conn - [DEBUG] : Starting new HTTP connection (1): 47.107.116.139:80
-2023-09-06 13:30:14 - connectionpool.py:456 -_make_request - [DEBUG] : http://47.107.116.139:80 "GET /phpwind HTTP/1.1" 301 162
-2023-09-06 13:30:14 - connectionpool.py:456 -_make_request - [DEBUG] : http://47.107.116.139:80 "GET /phpwind/ HTTP/1.1" 200 None
-2023-09-06 13:30:14 - testrequest.py:131 -test_getcookies - [DEBUG] : 获取 csrf_token 值
-2023-09-06 13:30:14 - testrequest.py:135 -test_getcookies - [DEBUG] : e86c303cebd756e6
-2023-09-06 13:30:14 - testrequest.py:145 -test_getexcel - [DEBUG] : 请求地址
-2023-09-06 13:30:14 - testrequest.py:148 -test_getexcel - [DEBUG] : https://tianqiapi.com/free/day
-2023-09-06 13:30:14 - testrequest.py:149 -test_getexcel - [DEBUG] : 请求方式
-2023-09-06 13:30:14 - testrequest.py:152 -test_getexcel - [DEBUG] : get
-2023-09-06 13:30:14 - testrequest.py:153 -test_getexcel - [DEBUG] : 请求头
-2023-09-06 13:30:14 - testrequest.py:156 -test_getexcel - [DEBUG] : 
-2023-09-06 13:30:14 - testrequest.py:157 -test_getexcel - [DEBUG] : 请求参数
-2023-09-06 13:30:14 - testrequest.py:161 -test_getexcel - [DEBUG] : {"appid": "47242322", "appsecret": "4cUoG0rk", "city": "大连"}
-2023-09-06 13:30:14 - testrequest.py:162 -test_getexcel - [DEBUG] : 获取access_token
-2023-09-06 13:30:14 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
-2023-09-06 13:30:15 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E5%A4%A7%E8%BF%9E HTTP/1.1" 200 None
-2023-09-06 13:30:15 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
-2023-09-06 13:30:16 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E5%A4%A7%E8%BF%9E HTTP/1.1" 200 None
-2023-09-06 13:30:16 - testrequest.py:165 -test_getexcel - [DEBUG] : {'nums': 6, 'cityid': '101070201', 'city': '大连', 'date': '2023-09-06', 'week': '星期三', 'update_time': '13:17', 'wea': '晴', 'wea_img': 'qing', 'tem': '30', 'tem_day': '30', 'tem_night': '21', 'win': '东北风', 'win_speed': '2级', 'win_meter': '5km/h', 'air': '43', 'pressure': '1003', 'humidity': '50%'}
-2023-09-06 13:30:16 - testrequest.py:145 -test_getexcel - [DEBUG] : 请求地址
-2023-09-06 13:30:16 - testrequest.py:148 -test_getexcel - [DEBUG] : https://tianqiapi.com/free/day
-2023-09-06 13:30:16 - testrequest.py:149 -test_getexcel - [DEBUG] : 请求方式
-2023-09-06 13:30:16 - testrequest.py:152 -test_getexcel - [DEBUG] : get
-2023-09-06 13:30:16 - testrequest.py:153 -test_getexcel - [DEBUG] : 请求头
-2023-09-06 13:30:16 - testrequest.py:156 -test_getexcel - [DEBUG] : 
-2023-09-06 13:30:16 - testrequest.py:157 -test_getexcel - [DEBUG] : 请求参数
-2023-09-06 13:30:16 - testrequest.py:161 -test_getexcel - [DEBUG] : {"appid": "47242322", "appsecret": "4cUoG0rk", "city": "青岛"}
-2023-09-06 13:30:16 - testrequest.py:162 -test_getexcel - [DEBUG] : 获取access_token
-2023-09-06 13:30:16 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
-2023-09-06 13:30:17 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E9%9D%92%E5%B2%9B HTTP/1.1" 200 None
-2023-09-06 13:30:17 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
-2023-09-06 13:30:18 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E9%9D%92%E5%B2%9B HTTP/1.1" 200 None
-2023-09-06 13:30:18 - testrequest.py:165 -test_getexcel - [DEBUG] : {'nums': 8, 'cityid': '101120201', 'city': '青岛', 'date': '2023-09-06', 'week': '星期三', 'update_time': '13:18', 'wea': '晴', 'wea_img': 'qing', 'tem': '30', 'tem_day': '31', 'tem_night': '21', 'win': '西北风', 'win_speed': '3级', 'win_meter': '14km/h', 'air': '54', 'pressure': '1005', 'humidity': '49%'}
-2023-09-06 13:30:18 - testrequest.py:145 -test_getexcel - [DEBUG] : 请求地址
-2023-09-06 13:30:18 - testrequest.py:148 -test_getexcel - [DEBUG] : https://tianqiapi.com/free/day
-2023-09-06 13:30:18 - testrequest.py:149 -test_getexcel - [DEBUG] : 请求方式
-2023-09-06 13:30:18 - testrequest.py:152 -test_getexcel - [DEBUG] : get
-2023-09-06 13:30:18 - testrequest.py:153 -test_getexcel - [DEBUG] : 请求头
-2023-09-06 13:30:18 - testrequest.py:156 -test_getexcel - [DEBUG] : 
-2023-09-06 13:30:18 - testrequest.py:157 -test_getexcel - [DEBUG] : 请求参数
-2023-09-06 13:30:18 - testrequest.py:161 -test_getexcel - [DEBUG] : {"appid": "47242322", "appsecret": "4cUoG0rk", "city": "厦门"}
-2023-09-06 13:30:18 - testrequest.py:162 -test_getexcel - [DEBUG] : 获取access_token
-2023-09-06 13:30:18 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
-2023-09-06 13:30:19 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E5%8E%A6%E9%97%A8 HTTP/1.1" 200 None
-2023-09-06 13:30:19 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
-2023-09-06 13:30:20 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E5%8E%A6%E9%97%A8 HTTP/1.1" 200 None
-2023-09-06 13:30:20 - testrequest.py:165 -test_getexcel - [DEBUG] : {'nums': 10, 'cityid': '101230201', 'city': '厦门', 'date': '2023-09-06', 'week': '星期三', 'update_time': '13:17', 'wea': '雨', 'wea_img': 'yu', 'tem': '25', 'tem_day': '27', 'tem_night': '24', 'win': '东南风', 'win_speed': '2级', 'win_meter': '9km/h', 'air': '15', 'pressure': '992', 'humidity': '100%'}
+2023-12-12 13:17:29 - testrequest.py:29 -TestSendRequest - [DEBUG] : 获取token值
+2023-12-12 13:17:29 - testrequest.py:61 -TestSendRequest - [DEBUG] : 使用获取的token值
+2023-12-12 13:17:29 - testrequest.py:88 -TestSendRequest - [DEBUG] : 查询城市天气
+2023-12-12 13:17:29 - testrequest.py:110 -TestSendRequest - [DEBUG] : 获取cookies值
+2023-12-12 13:17:30 - testrequest.py:40 -test_gettoken - [DEBUG] : 请求地址=====》https://api.weixin.qq.com/cgi-bin/token
+2023-12-12 13:17:30 - testrequest.py:43 -test_gettoken - [DEBUG] : 请求方式=====》get
+2023-12-12 13:17:30 - testrequest.py:47 -test_gettoken - [DEBUG] : 请求参数=====》{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-12-12 13:17:30 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): api.weixin.qq.com:443
+2023-12-12 13:17:31 - connectionpool.py:456 -_make_request - [DEBUG] : https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx6b11b3efd1cdc290&secret=106a9c6157c4db5f6029918738f9529d HTTP/1.1" 200 173
+2023-12-12 13:17:31 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): api.weixin.qq.com:443
+2023-12-12 13:17:32 - connectionpool.py:456 -_make_request - [DEBUG] : https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx6b11b3efd1cdc290&secret=106a9c6157c4db5f6029918738f9529d HTTP/1.1" 200 173
+2023-12-12 13:17:32 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): api.weixin.qq.com:443
+2023-12-12 13:17:33 - connectionpool.py:456 -_make_request - [DEBUG] : https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx6b11b3efd1cdc290&secret=106a9c6157c4db5f6029918738f9529d HTTP/1.1" 200 173
+2023-12-12 13:17:33 - testrequest.py:52 -test_gettoken - [DEBUG] : 返回token值=====》75_ydKdJTqhkYHeAnBSN1saTK26sQficbVgeXkxc4LI4gzUAFaRGUK08shdxsnz0GMgIwkWBOWX7SNtTJ-I_v2Z0MsljHbu4tsJXVhnVPUBUUW8uwsTq-qrMjCHOpcLEOhAJADWG
+2023-12-12 13:17:33 - testrequest.py:68 -test_usetoken - [DEBUG] : 读取存入的token
+2023-12-12 13:17:33 - testrequest.py:70 -test_usetoken - [DEBUG] : 72_Dwp2r6SIuVY1hdkcpwOB_6uTOYl6R3LJT2GbPq6IFnKs_lIdNjoM5j2gtjPCO4U_SpcDorusC81Yv08mGa916ip9jzNn8NsGUnSarr9Fw-l2jUJUeUquDufN9SsQEOjAFATHR
+2023-12-12 13:17:33 - testrequest.py:71 -test_usetoken - [DEBUG] : 获取请求地址
+2023-12-12 13:17:33 - testrequest.py:74 -test_usetoken - [DEBUG] : https://api.weixin.qq.com/cgi-bin/tags/update?access_token=72_Dwp2r6SIuVY1hdkcpwOB_6uTOYl6R3LJT2GbPq6IFnKs_lIdNjoM5j2gtjPCO4U_SpcDorusC81Yv08mGa916ip9jzNn8NsGUnSarr9Fw-l2jUJUeUquDufN9SsQEOjAFATHR
+2023-12-12 13:17:33 - testrequest.py:75 -test_usetoken - [DEBUG] : 请求方法
+2023-12-12 13:17:33 - testrequest.py:78 -test_usetoken - [DEBUG] : post
+2023-12-12 13:17:33 - testrequest.py:79 -test_usetoken - [DEBUG] : 请求数据
+2023-12-12 13:17:33 - testrequest.py:81 -test_usetoken - [DEBUG] : {'id': 134, 'name': '广东人'}
+2023-12-12 13:17:33 - testrequest.py:82 -test_usetoken - [DEBUG] : 获取返回值
+2023-12-12 13:17:33 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): api.weixin.qq.com:443
+2023-12-12 13:17:34 - connectionpool.py:456 -_make_request - [DEBUG] : https://api.weixin.qq.com:443 "POST /cgi-bin/tags/update?access_token=72_Dwp2r6SIuVY1hdkcpwOB_6uTOYl6R3LJT2GbPq6IFnKs_lIdNjoM5j2gtjPCO4U_SpcDorusC81Yv08mGa916ip9jzNn8NsGUnSarr9Fw-l2jUJUeUquDufN9SsQEOjAFATHR HTTP/1.1" 200 215
+2023-12-12 13:17:34 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): api.weixin.qq.com:443
+2023-12-12 13:17:35 - connectionpool.py:456 -_make_request - [DEBUG] : https://api.weixin.qq.com:443 "POST /cgi-bin/tags/update?access_token=72_Dwp2r6SIuVY1hdkcpwOB_6uTOYl6R3LJT2GbPq6IFnKs_lIdNjoM5j2gtjPCO4U_SpcDorusC81Yv08mGa916ip9jzNn8NsGUnSarr9Fw-l2jUJUeUquDufN9SsQEOjAFATHR HTTP/1.1" 200 215
+2023-12-12 13:17:35 - testrequest.py:85 -test_usetoken - [DEBUG] : <Response [200]>
+2023-12-12 13:17:35 - testrequest.py:93 -test_getweather - [DEBUG] : 请求地址
+2023-12-12 13:17:35 - testrequest.py:96 -test_getweather - [DEBUG] : https://tianqiapi.com/free/day
+2023-12-12 13:17:35 - testrequest.py:97 -test_getweather - [DEBUG] : 请求方式
+2023-12-12 13:17:35 - testrequest.py:100 -test_getweather - [DEBUG] : GET
+2023-12-12 13:17:35 - testrequest.py:102 -test_getweather - [DEBUG] : 查询 大连 天气预报
+2023-12-12 13:17:35 - testrequest.py:103 -test_getweather - [DEBUG] : 获取 id/密钥/城市
+2023-12-12 13:17:35 - testrequest.py:105 -test_getweather - [DEBUG] : {'appid': 47242322, 'appsecret': '4cUoG0rk', 'city': '大连'}
+2023-12-12 13:17:35 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
+2023-12-12 13:17:36 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E5%A4%A7%E8%BF%9E HTTP/1.1" 200 None
+2023-12-12 13:17:36 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
+2023-12-12 13:17:36 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E5%A4%A7%E8%BF%9E HTTP/1.1" 200 None
+2023-12-12 13:17:36 - testrequest.py:107 -test_getweather - [DEBUG] : 大连'天气预报'：{'nums': 2, 'cityid': '101070201', 'city': '大连', 'date': '2023-12-12', 'week': '星期二', 'update_time': '13:07', 'wea': '晴', 'wea_img': 'qing', 'tem': '-4.7', 'tem_day': '-2', 'tem_night': '-8', 'win': '北风', 'win_speed': '3级', 'win_meter': '15km/h', 'air': '47', 'pressure': '1015', 'humidity': '58%'}
+2023-12-12 13:17:37 - testrequest.py:93 -test_getweather - [DEBUG] : 请求地址
+2023-12-12 13:17:37 - testrequest.py:96 -test_getweather - [DEBUG] : https://tianqiapi.com/free/day
+2023-12-12 13:17:37 - testrequest.py:97 -test_getweather - [DEBUG] : 请求方式
+2023-12-12 13:17:37 - testrequest.py:100 -test_getweather - [DEBUG] : GET
+2023-12-12 13:17:37 - testrequest.py:102 -test_getweather - [DEBUG] : 查询 长春 天气预报
+2023-12-12 13:17:37 - testrequest.py:103 -test_getweather - [DEBUG] : 获取 id/密钥/城市
+2023-12-12 13:17:37 - testrequest.py:105 -test_getweather - [DEBUG] : {'appid': 47242322, 'appsecret': '4cUoG0rk', 'city': '长春'}
+2023-12-12 13:17:37 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
+2023-12-12 13:17:37 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E9%95%BF%E6%98%A5 HTTP/1.1" 200 None
+2023-12-12 13:17:37 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
+2023-12-12 13:17:38 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E9%95%BF%E6%98%A5 HTTP/1.1" 200 None
+2023-12-12 13:17:38 - testrequest.py:107 -test_getweather - [DEBUG] : 长春'天气预报'：{'nums': 4, 'cityid': '101060101', 'city': '长春', 'date': '2023-12-12', 'week': '星期二', 'update_time': '13:09', 'wea': '晴', 'wea_img': 'qing', 'tem': '-12.7', 'tem_day': '-13', 'tem_night': '-20', 'win': '东北风', 'win_speed': '1级', 'win_meter': '5km/h', 'air': '54', 'pressure': '1000', 'humidity': '30%'}
+2023-12-12 13:17:39 - testrequest.py:116 -test_getcookies - [DEBUG] : 请求地址
+2023-12-12 13:17:39 - testrequest.py:119 -test_getcookies - [DEBUG] : http://47.107.116.139/phpwind
+2023-12-12 13:17:39 - testrequest.py:120 -test_getcookies - [DEBUG] : 请求方式
+2023-12-12 13:17:39 - testrequest.py:123 -test_getcookies - [DEBUG] : get
+2023-12-12 13:17:39 - connectionpool.py:228 -_new_conn - [DEBUG] : Starting new HTTP connection (1): 47.107.116.139:80
+2023-12-12 13:17:39 - connectionpool.py:456 -_make_request - [DEBUG] : http://47.107.116.139:80 "GET /phpwind HTTP/1.1" 301 162
+2023-12-12 13:17:42 - connectionpool.py:456 -_make_request - [DEBUG] : http://47.107.116.139:80 "GET /phpwind/ HTTP/1.1" 200 None
+2023-12-12 13:17:42 - testrequest.py:126 -test_getcookies - [DEBUG] : 获取 csrf_token 值
+2023-12-12 13:17:42 - testrequest.py:130 -test_getcookies - [DEBUG] : 51719c63ac555e63
+2023-12-12 13:17:43 - testrequest.py:140 -test_getexcel - [DEBUG] : 请求地址
+2023-12-12 13:17:43 - testrequest.py:143 -test_getexcel - [DEBUG] : https://tianqiapi.com/free/day
+2023-12-12 13:17:43 - testrequest.py:144 -test_getexcel - [DEBUG] : 请求方式
+2023-12-12 13:17:43 - testrequest.py:147 -test_getexcel - [DEBUG] : get
+2023-12-12 13:17:43 - testrequest.py:148 -test_getexcel - [DEBUG] : 请求头
+2023-12-12 13:17:43 - testrequest.py:151 -test_getexcel - [DEBUG] : 
+2023-12-12 13:17:43 - testrequest.py:152 -test_getexcel - [DEBUG] : 请求参数
+2023-12-12 13:17:43 - testrequest.py:156 -test_getexcel - [DEBUG] : {"appid": "47242322", "appsecret": "4cUoG0rk", "city": "大连"}
+2023-12-12 13:17:43 - testrequest.py:157 -test_getexcel - [DEBUG] : 获取access_token
+2023-12-12 13:17:43 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
+2023-12-12 13:17:43 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E5%A4%A7%E8%BF%9E HTTP/1.1" 200 None
+2023-12-12 13:17:43 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
+2023-12-12 13:17:45 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E5%A4%A7%E8%BF%9E HTTP/1.1" 200 None
+2023-12-12 13:17:45 - testrequest.py:160 -test_getexcel - [DEBUG] : {'nums': 6, 'cityid': '101070201', 'city': '大连', 'date': '2023-12-12', 'week': '星期二', 'update_time': '13:07', 'wea': '晴', 'wea_img': 'qing', 'tem': '-4.7', 'tem_day': '-2', 'tem_night': '-8', 'win': '北风', 'win_speed': '3级', 'win_meter': '15km/h', 'air': '47', 'pressure': '1015', 'humidity': '58%'}
+2023-12-12 13:17:45 - testrequest.py:140 -test_getexcel - [DEBUG] : 请求地址
+2023-12-12 13:17:45 - testrequest.py:143 -test_getexcel - [DEBUG] : https://tianqiapi.com/free/day
+2023-12-12 13:17:45 - testrequest.py:144 -test_getexcel - [DEBUG] : 请求方式
+2023-12-12 13:17:45 - testrequest.py:147 -test_getexcel - [DEBUG] : get
+2023-12-12 13:17:45 - testrequest.py:148 -test_getexcel - [DEBUG] : 请求头
+2023-12-12 13:17:45 - testrequest.py:151 -test_getexcel - [DEBUG] : 
+2023-12-12 13:17:45 - testrequest.py:152 -test_getexcel - [DEBUG] : 请求参数
+2023-12-12 13:17:45 - testrequest.py:156 -test_getexcel - [DEBUG] : {"appid": "47242322", "appsecret": "4cUoG0rk", "city": "青岛"}
+2023-12-12 13:17:45 - testrequest.py:157 -test_getexcel - [DEBUG] : 获取access_token
+2023-12-12 13:17:45 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
+2023-12-12 13:17:45 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E9%9D%92%E5%B2%9B HTTP/1.1" 200 None
+2023-12-12 13:17:46 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
+2023-12-12 13:17:47 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E9%9D%92%E5%B2%9B HTTP/1.1" 200 None
+2023-12-12 13:17:47 - testrequest.py:160 -test_getexcel - [DEBUG] : {'nums': 8, 'cityid': '101120201', 'city': '青岛', 'date': '2023-12-12', 'week': '星期二', 'update_time': '12:27', 'wea': '多云', 'wea_img': 'yun', 'tem': '1.4', 'tem_day': '5', 'tem_night': '0', 'win': '西北风', 'win_speed': '3级', 'win_meter': '16km/h', 'air': '36', 'pressure': '1018', 'humidity': '69%'}
+2023-12-12 13:17:47 - testrequest.py:140 -test_getexcel - [DEBUG] : 请求地址
+2023-12-12 13:17:47 - testrequest.py:143 -test_getexcel - [DEBUG] : https://tianqiapi.com/free/day
+2023-12-12 13:17:47 - testrequest.py:144 -test_getexcel - [DEBUG] : 请求方式
+2023-12-12 13:17:47 - testrequest.py:147 -test_getexcel - [DEBUG] : get
+2023-12-12 13:17:47 - testrequest.py:148 -test_getexcel - [DEBUG] : 请求头
+2023-12-12 13:17:47 - testrequest.py:151 -test_getexcel - [DEBUG] : 
+2023-12-12 13:17:47 - testrequest.py:152 -test_getexcel - [DEBUG] : 请求参数
+2023-12-12 13:17:47 - testrequest.py:156 -test_getexcel - [DEBUG] : {"appid": "47242322", "appsecret": "4cUoG0rk", "city": "厦门"}
+2023-12-12 13:17:47 - testrequest.py:157 -test_getexcel - [DEBUG] : 获取access_token
+2023-12-12 13:17:47 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
+2023-12-12 13:17:48 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E5%8E%A6%E9%97%A8 HTTP/1.1" 200 None
+2023-12-12 13:17:48 - connectionpool.py:1003 -_new_conn - [DEBUG] : Starting new HTTPS connection (1): tianqiapi.com:443
+2023-12-12 13:17:49 - connectionpool.py:456 -_make_request - [DEBUG] : https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E5%8E%A6%E9%97%A8 HTTP/1.1" 200 None
+2023-12-12 13:17:49 - testrequest.py:160 -test_getexcel - [DEBUG] : {'nums': 10, 'cityid': '101230201', 'city': '厦门', 'date': '2023-12-12', 'week': '星期二', 'update_time': '05:43', 'wea': '多云', 'wea_img': 'yun', 'tem': '20.6', 'tem_day': '23', 'tem_night': '16', 'win': '东南风', 'win_speed': '3级', 'win_meter': '12km/h', 'air': '75', 'pressure': '999', 'humidity': '90%'}

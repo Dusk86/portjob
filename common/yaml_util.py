@@ -12,6 +12,7 @@ class YamlUtil:
     def write_token(self, yaml_path, data):
         # os.getcwd()获取当前文件所在目录
         with open(yaml_path, mode="w", encoding="utf-8") as f:
+            # yaml.dump() 将yaml文件全部写入创建的文件中
             yaml.dump(data, stream=f, allow_unicode=True)
 
     # 读取写入的token值

@@ -30,21 +30,24 @@ class RequestUtil:
         requests中的session对象能够让我们跨http请求保持某些参数，即让同一个session对象发送的请求头携带某个指定的参数。
         当然，最常见的应用是它可以让cookie保持在后续的一串请求中。
         """
+        # requests.session(): 维持会话,跨请求的时候保存参数
         self.session = requests.session()
 
-    def request(self, url, method, data=None, is_json=False, **kwargs):
+    def request(self, url, method, data=None, json=None):
         #将请求方式全部大写
         method = method.upper()
         #判断data类型
         if type(data) == str:
             data = eval(data)  # str转成字典
         if method == "GET":
-            response = self.session.request(method=method, url=url, params=data, **kwargs)
+            response = self.session.request(method=method, url=url, params=data)
         elif method == "POST":
-            if is_json:  # 请求参数是json格式 application/json
-                response = self.session.request(method=method, url=url, json=data, **kwargs)
+            if json:
+                # 请求头设置为 Content-Type=application/json, 使用data=json
+                response = self.session.request(method=method, url=url, data=json)
             else:
-                response = self.session.request(method=method, url=url, data=data, **kwargs)
+                # 请求头设置为 application/x-www-form-urlencoded,使用data=data
+                response = self.session.request(method=method, url=url, data=data)
         else:
             response = None
         return response

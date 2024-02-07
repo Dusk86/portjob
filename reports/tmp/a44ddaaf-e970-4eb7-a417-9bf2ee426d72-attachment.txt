@@ -1,0 +1,12 @@
+DEBUG    root:testrequest.py:93 请求地址
+DEBUG    root:testrequest.py:96 https://tianqiapi.com/free/day
+DEBUG    root:testrequest.py:97 请求方式
+DEBUG    root:testrequest.py:100 GET
+DEBUG    root:testrequest.py:102 查询 长春 天气预报
+DEBUG    root:testrequest.py:103 获取 id/密钥/城市
+DEBUG    root:testrequest.py:105 {'appid': 47242322, 'appsecret': '4cUoG0rk', 'city': '长春'}
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): tianqiapi.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E9%95%BF%E6%98%A5 HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): tianqiapi.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://tianqiapi.com:443 "GET /free/day?appid=47242322&appsecret=4cUoG0rk&city=%E9%95%BF%E6%98%A5 HTTP/1.1" 200 None
+DEBUG    root:testrequest.py:107 长春'天气预报'：{'nums': 4, 'cityid': '101060101', 'city': '长春', 'date': '2023-12-12', 'week': '星期二', 'update_time': '13:09', 'wea': '晴', 'wea_img': 'qing', 'tem': '-12.7', 'tem_day': '-13', 'tem_night': '-20', 'win': '东北风', 'win_speed': '1级', 'win_meter': '5km/h', 'air': '54', 'pressure': '1000', 'humidity': '30%'}

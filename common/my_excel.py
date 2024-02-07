@@ -3,7 +3,7 @@
 import xlrd
 
 """
-sheet_names(): 获取所有sheet页名字
+sheet_names(): 获取所有sheet页名
 sheet_by_index:根据所在的下标获取sheet页
 sheet_by_name():根据名字获取sheet页
 sheets：获取一个Excel文件中所有的sheet表格
@@ -33,10 +33,10 @@ class MyExcel:
         # 通过工作表名称获取某张表格
         sheet_data = wb.sheet_by_name(sheet_name)
         # 获取表格内第二行到最后一行数据
-        for i in range(1, sheet_data.nrows):
+        for i in range(1, sheet_data.nrows):  # 获取总行数
             d = []
             # 遍历列数据
-            for j in range(0, sheet_data.ncols):
+            for j in range(0, sheet_data.ncols):  # 获取总列数
                 # 将每一列的行数据存入数组d中
                 d = sheet_data.row_values(i)
             # 向li中添加数据
